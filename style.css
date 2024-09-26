@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color:#ebebeb;
+    overflow: hidden;
+}
+
+#wrapper{
+    height:500px;
+    width:500px;
+    background-color: red;
+    margin: 30px auto;   
+    background-color: #dadada; 
+    border-radius: 15px;
+    border: 3px solid white;
+    box-shadow: 3px 3px 0 0 white;
+    margin-top: 75px;
+    
+}
+
+
+.text{
+    text-align: center;    
+    padding-top: 30px;
+}
+
+.text h1{
+    font-size: 25px;
+    font-weight: 800;
+    opacity: 0.7;
+    color: #1d0014;
+}
+
+.text p{
+    font-size: 15px;
+    font-weight:300;
+    color: #500037;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.form label{
+    font-size: 25px;
+    font-weight: 700;
+    opacity: 0.8;
+    color: #1d0014;
+}
+
+.form .input{
+    height: 20px;
+    width: 180px;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    color: #500037;
+    cursor: pointer;
+}
+
+.inp{
+    margin-top: 20px;
+    height: 25px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    width: 100px;
+    color: #500037;
+    cursor: pointer;
+}
+
+.form input:hover{
+    box-shadow: 0.5px 1px 1px 1px #470027;
+}
+
+.resultParas{
+text-align: center;
+margin-top: 30px;
+}
+
+.resultParas p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #470027;
+}
+
+
+
+
